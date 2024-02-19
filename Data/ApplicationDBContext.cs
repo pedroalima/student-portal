@@ -10,5 +10,10 @@ namespace StudentPortal.Web.Data
 
         }
         public DbSet<Student> Students { get; set; }
+
+        internal Task FindAsync(Guid id)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
